@@ -814,7 +814,8 @@
     box-shadow: 0 0 0 20px #293251, 0 0 0 40px #232c4b, 0 0 0 60px #1e2949;
   }
   // opacity: 1;
-  animation: winner 1.5s ease forwards;
+  animation: winner 3s ease forwards;
+  animation-iteration-count: infinite;
 }
 
 .result__rock--h.winner::after {
@@ -823,7 +824,8 @@
     box-shadow: 0 0 0 20px #293251, 0 0 0 40px #232c4b, 0 0 0 60px #1e2949;
   }
   // opacity: 1;
-  animation: winner 1.5s ease forwards;
+  animation: winner 3s ease forwards;
+  animation-iteration-count: infinite;
 }
 
 .result__scissors--h.winner::after {
@@ -832,7 +834,8 @@
     box-shadow: 0 0 0 20px #293251, 0 0 0 40px #232c4b, 0 0 0 60px #1e2949;
   }
   // opacity: 1;
-  animation: winner 1.5s ease forwards;
+  animation: winner 3s ease forwards;
+  animation-iteration-count: infinite;
 }
 
 .result__paper--ai.winner::after {
@@ -841,7 +844,8 @@
     box-shadow: 0 0 0 20px #293251, 0 0 0 40px #232c4b, 0 0 0 60px #1e2949;
   }
   // opacity: 1;
-  animation: winner 1.5s ease forwards;
+  animation: winner 3s ease forwards;
+  animation-iteration-count: infinite;
 }
 
 .result__rock--ai.winner::after {
@@ -850,7 +854,8 @@
     box-shadow: 0 0 0 20px #293251, 0 0 0 40px #232c4b, 0 0 0 60px #1e2949;
   }
   // opacity: 1;
-  animation: winner 1.5s ease forwards;
+  animation: winner 3s ease forwards;
+  animation-iteration-count: infinite;
 }
 
 .result__scissors--ai.winner::after {
@@ -859,7 +864,8 @@
     box-shadow: 0 0 0 20px #293251, 0 0 0 40px #232c4b, 0 0 0 60px #1e2949;
   }
   // opacity: 1;
-  animation: winner 1.5s ease forwards;
+  animation: winner 3s ease forwards;
+  animation-iteration-count: infinite;
 }
 
 .rules {
