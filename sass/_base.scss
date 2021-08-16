@@ -1,0 +1,71 @@
+//Variables
+
+//Colors
+
+$color-scissors-1: hsl(39, 89%, 49%);
+$color-scissors-2: hsl(40, 84%, 53%);
+$color-paper-1: #4865f4;
+$color-paper-2: #5671f5;
+$color-rock-1: hsl(349, 71%, 52%);
+$color-rock-2: hsl(349, 70%, 56%);
+$color-lizard-1: hsl(261, 73%, 60%);
+$color-lizard-2: hsl(261, 72%, 63%);
+$color-spock-1: hsl(189, 59%, 53%);
+$color-spock-2: hsl(189, 58%, 57%);
+$color-dark-text: #3b4363;
+$color-score-text: hsl(229, 64%, 46%);
+$color-header-outline: #606e85;
+$color-radial-gradient-1: #1f3756;
+$color-radial-gradient-2: #141539;
+$shadow-light: #00000026;
+$shadow-med: #0000004d;
+$shadow-dark: #000000a2;
+
+//Fonts
+$font-primary: "Barlow Semi Condensed", sans-serif;
+
+//Breakpoints
+$mobile-width: 23.4375em;
+$desktop-width: 85.375em;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.25%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: $font-primary;
+  color: black;
+  font-weight: 300;
+  line-height: 1.6;
+  background: radial-gradient(
+    circle at 50% 50%,
+    #1f3756,
+    #1f3655,
+    #1d3454,
+    #1c3151,
+    #1a2d4e,
+    #19284a,
+    #172446,
+    #161f42,
+    #151b3f,
+    #15183c,
+    #14163a,
+    #141539
+  );
+
+  overflow-x: hidden;
+}

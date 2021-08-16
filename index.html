@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal-rules">
+        <div class="modal-flex">
+          <div class="modal-rules__p">Rules</div>
+          <img
+            src="/images/icon-close.svg"
+            alt="icon-close"
+            class="modal-rules__icon-close"
+          />
+        </div>
+        <img
+          src="/images/image-rules.svg"
+          alt="rules image"
+          class="modal-rules__rules-image"
+        />
+      </div>
+      <div class="modal-rules-mobile">
+        <div class="modal-flex">
+          <div class="modal-rules__p">Rules</div>
+          <img
+            src="/images/image-rules.svg"
+            alt="rules image"
+            class="modal-rules__rules-image"
+          />
+          <img
+            src="/images/icon-close.svg"
+            alt="icon-close"
+            class="modal-rules__icon-close2"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="header__heading">
+        <h1 class="heading">Rock</h1>
+        <h1 class="heading">Paper</h1>
+        <h1 class="heading">Scissors</h1>
+      </div>
+      <div class="header__score">
+        <p class="paragraph">Score</p>
+        <p class="score">0</p>
+      </div>
+    </div>
+
+    <div class="options">
+      <button class="options__paper">
+        <img src="/images/icon-paper.svg" alt="paper" class="icon__paper" />
+      </button>
+      <button class="options__scissors">
+        <img
+          src="/images/icon-scissors.svg"
+          alt="scissors"
+          class="icon__scissors"
+        />
+      </button>
+      <button class="options__rock">
+        <img src="/images/icon-rock.svg" alt="rock" class="icon__rock" />
+      </button>
+    </div>
+
+    <!-- <div class="winnerbg1"></div>
+    <div class="winnerbg2"></div> -->
+
+    <div class="game-result">
+      <p class="human-picked">You picked</p>
+      <p class="ai-picked">The house picked</p>
+
+      <div class="human-choice">
+        <button class="result__paper--h">
+          <img src="/images/icon-paper.svg" alt="paper" class="icon__paper2" />
+        </button>
+        <button class="result__scissors--h">
+          <img
+            src="/images/icon-scissors.svg"
+            alt="scissors"
+            class="icon__scissors2"
+          />
+        </button>
+        <button class="result__rock--h">
+          <img src="/images/icon-rock.svg" alt="rock" class="icon__rock2" />
+        </button>
+      </div>
+
+      <div class="result">
+        <p class="result__para">You Lose</p>
+        <button class="result__play-again">Play again</button>
+      </div>
+
+      <div class="pc-choice">
+        <button class="result__paper--ai">
+          <img src="/images/icon-paper.svg" alt="paper" class="icon__paper2" />
+        </button>
+        <button class="result__scissors--ai">
+          <img
+            src="/images/icon-scissors.svg"
+            alt="scissors"
+            class="icon__scissors2"
+          />
+        </button>
+        <button class="result__rock--ai">
+          <img src="/images/icon-rock.svg" alt="rock" class="icon__rock2" />
+        </button>
+      </div>
+    </div>
+
+    <button class="rules"><p class="rules__para">Rules</p></button>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Din0993">Dino Sijarić</a>.
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
